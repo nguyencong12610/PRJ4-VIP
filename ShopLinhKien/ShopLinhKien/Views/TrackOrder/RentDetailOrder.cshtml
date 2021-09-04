@@ -1,0 +1,662 @@
+﻿@model ShopLinhKien.Models.LeaseOrder
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+@Html.Action("Mainmenu", "module")
+
+
+<!-- section -->
+<div class="section pt-4">
+    <!-- container -->
+    <div class="container bg-white">
+        <!-- row -->
+        <div class="row">
+            <div>
+                <div class="p-2">
+                    @if (Model.IsCancel == 2)
+                    {
+                        <a href="~/LeaseOrders/cannel?id=@Model.ID" class="btn btn-danger text-white disabled ">Đơn hàng đã hủy </a>
+                    }
+                    else
+                    {
+                        <a href="~/LeaseOrders/cannel?id=@Model.ID" class="btn btn-danger text-white ">Hủy đơn hàng </a>
+                    }
+                </div>
+            <div class="float-left p-2">
+                @if (Model.ComfirmReturn == 0)
+                {
+                    <a href="~/LeaseOrders/returnN?id=@Model.ID" class="btn btn-warning text-white ">Trả máy </a>
+                }
+                else if (Model.ComfirmReturn == 1)
+                {
+                    <a href="~/LeaseOrders/returnN?id=@Model.ID" class="btn btn-warning text-white disabled">đã trả máy </a>
+                }
+                else
+                {
+                    <a href="~/LeaseOrders/returnN?id=@Model.ID" class="btn  btn-warning text-white disabled">Chờ xác nhận </a>
+                }
+            </div>
+            </div>
+            <div class="col-md-12">
+                <div class="order-summary clearfix">
+                    <div class="section-title">
+                        <p class="text-success  ">@Model.Name, thân mến! </p>
+                        <h3 class="title text-cam">Thông tin đơn hàng</h3>
+
+                    </div>
+                    <form method="post" action="~/LeaseOrders/updateDate">
+
+                        <input type="hidden" name="id" value="@Model.ID" />
+
+                        <table class="shopping-cart-table table">
+                            <tbody>
+                                <tr>
+                                    <td class=""><h5>Tên khách hàng: </h5></td>
+                                    <td>@Model.Name</td>
+                                </tr>
+                                <tr>
+                                    <td class=""><h5>mã đơn hàng</h5></td>
+                                    <td>@Model.ID</td>
+                                </tr>
+                                <tr>
+                                    <td class=""><h5>Email</h5></td>
+                                    <td>@Model.Emal</td>
+                                </tr>
+                                <tr>
+                                    <td class=""><h5>Số điện thoại</h5></td>
+                                    <td>@Model.Phone</td>
+                                </tr>
+                                <tr>
+                                    <td class=""><h5>Ngày thuê</h5></td>
+                                    <td>@Model.DayStart.ToString("dd/MM/yyyy")</td>
+                                </tr>
+
+                                <tr>
+                                    <td class=""><h5>Ngày phải trả(Dự kiến)</h5></td>
+                                    <td class="font-weight-bold text-danger">@Model.PayableDate.ToString("dd/MM/yyyy")</td>
+                                </tr>
+                                
+                                @if (Model.ComfirmReturn == 1)
+                                {
+                                    <tr>
+                                        <td class=""><h5>Ngày khách trả máy</h5></td>
+                                        <td class="font-weight-bold text-danger">@Model.ReturnDate.ToString("dd/MM/yyyy")</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class=""><h5>Số tiền hoàn lại cho khách(Bao gồm tiền cọc máy)</h5></td>
+                                        <td class="font-weight-bold"> @Model.TotalReturn.ToString("N0") VND</td>
+                                    </tr>
+                                }
+                                <tr>
+                                    <td class=""><h5>Hình thức thanh toán</h5></td>
+                                    <td>@Model.PaymentMethod</td>
+                                </tr>   
+
+                                <tr>
+                                    <td class=""><h5>Trạng thái đơn thuê</h5></td>
+                                    @if (@Model.status == 0)
+                                        { 
+                                        <td class="text-danger font-weight-bold">Chưa xác nhận</td>
+                                    }
+                                    else if (@Model.status == 1)
+                                    {
+                                    <td class="text-success font-weight-bold">Đã xác nhận</td>
+                                    }
+                                    else if (@Model.status == 2)
+                                    {
+                                    <td class="text-info font-weight-bold">Đang giao máy</td>
+                                    }
+                                    else if (@Model.status == 3)
+                                    {
+                                <td class="text-danger font-weight-bold">Chưa trả máy</td>
+                                    }
+                                    else if (@Model.status == 4)
+                                    {
+                                <td class="text-success font-weight-bold">Đã trả máy</td>
+                                    }
+                                </tr>
+                                
+
+                                @if (Model.Deposits != 0)
+                                {
+                                    <tr>
+                                        <td class=""><h5>Tình trạng cọc</h5></td>
+                                        <td class="font-weight-bold">đặt cọc @Model.Deposits.ToString("N0") VND</td>
+                                    </tr>
+
+                                }
+
+                                else
+                                {
+                                    <tr>
+                                        <td class=""><h5>Số tiền cọc</h5></td>
+                                        <td>Thanh toán đủ</td>
+                                    </tr>
+                                }
+
+                                <tr>
+                                    <td class=""><h5>Trạng thái thanh toán</h5></td>
+                                    @if (@Model.StatusPayment == 1)
+                                    {
+                                        <td class="text-success font-weight-bold">Đã thanh toán</td>
+                                    }
+                                    else
+                                    {
+                                        <td>Chưa thanh toán vui lòng thanh toán lại</td>
+                                    }
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h6 class="bg-cam font-weight-bold text-center border-bottom py-2 text-white">Chọn hình thức thanh toán nếu thêm ngày thuê</h6>
+
+                        <div class="border-top">
+                            <h4 class="pb-3 font-weight-bold">Thêm ngày: </h4>
+                            <div>
+                                <label for="cars">Chọn thời hạn thuê:</label>
+                             <input name="ngaythue" class="form-control" min="@Model.PayableDate.AddDays(1).ToString("yyyy-MM-dd")" type="date"  />
+                            </div>
+                        </div>
+                        <div class="pl-2  pb-2">
+                            <ul class="list-unstyled">
+                                <li class="pt-3 border-top">
+                                    <input type="radio" id="2" name="option_payment" value="NL" required>
+                                    <label for="2" class=""><img class="w-25 pl-2 " src="~/public/images/NL.png" alt="Alternate Text" /><span class="pl-2 text-secondary" style="font-size:15px;">Bằng TK ngân lượng</span></label>
+                                    <div id="nganluongContent" class=" card col-md-10 bg-light" style="display:none;">
+                                        <p>
+                                            Thanh toán trực tuyến AN TOÀN và ĐƯỢC BẢO VỆ, sử dụng thẻ ngân hàng trong và ngoài nước hoặc nhiều hình thức tiện lợi khác.
+                                            Được bảo hộ & cấp phép bởi NGÂN HÀNG NHÀ NƯỚC, ví điện tử duy nhất được cộng đồng ƯA THÍCH NHẤT 2 năm liên tiếp, Bộ Thông tin Truyền thông trao giải thưởng Sao Khuê
+
+                                            <br />Giao dịch. Đăng ký ví NgânLượng.vn miễn phí <a class="text-danger" href="https://www.nganluong.vn/?portal=nganluong&amp;page=user_register" target="_blank">tại đây</a>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="pt-3 border-top">
+                                    <input type="radio" id="3" name="option_payment" value="ATM_ONLINE" required>
+                                    <label for="3" class=""><img class="w-25 pl-2 " src="~/public/images/banks.png" alt="Alternate Text" /><span class="pl-2 text-secondary" style="font-size:15px;">Bằng thẻ ngân hàng</span></label>
+                                    <div id="nganhangcontent" class=" card col-md-10 bg-light" style="display:none;">
+                                        <span style="color:#ff5a00;font-weight:bold;text-decoration:underline;">Lưu ý</span>: Bạn cần đăng ký Internet-Banking hoặc dịch vụ thanh toán trực tuyến tại ngân hàng trước khi thực hiện.</i></p>
+                                        <ul class="cardList clearfix">
+
+                                            <li class="bank-online-methods  ">
+                                                <label for="vcb_ck_on">
+                                                    <i class="VCB" title="Ngân hàng TMCP Ngoại Thương Việt Nam"></i>
+                                                    <input type="radio" value="VCB" runat="server" name="bankcode" />
+
+                                                </label>
+                                            </li>
+
+                                            <li class="bank-online-methods ">
+                                                <label for="vnbc_ck_on">
+                                                    <i class="DAB" title="Ngân hàng Đông Á"></i>
+                                                    <input type="radio" value="DAB" runat="server" name="bankcode" />
+
+                                                </label>
+                                            </li>
+
+                                            <li class="bank-online-methods ">
+                                                <label for="tcb_ck_on">
+                                                    <i class="TCB" title="Ngân hàng Kỹ Thương"></i>
+                                                    <input type="radio" value="TCB" runat="server" name="bankcode" />
+                                                </label>
+                                            </li>
+
+                                            <li class="bank-online-methods ">
+                                                <label for="sml_atm_mb_ck_on">
+                                                    <i class="MB" title="Ngân hàng Quân Đội"></i>
+                                                    <input type="radio" value="MB" runat="server" name="bankcode" />
+
+                                                </label>
+                                            </li>
+
+                                            <li class="bank-online-methods ">
+                                                <label for="shb_ck_on">
+                                                    <i class="SHB" title="Ngân hàng Sài Gòn - Hà Nội"></i>
+                                                    <input type="radio" value="SHB" runat="server" name="bankcode" />
+
+                                                </label>
+                                            </li>
+
+                                            <li class="bank-online-methods ">
+                                                <label for="sml_atm_vib_ck_on">
+                                                    <i class="VIB" title="Ngân hàng Quốc tế"></i>
+                                                    <input type="radio" value="VIB" runat="server" name="bankcode" />
+
+                                                </label>
+                                            </li>
+
+                                            <li class="bank-online-methods ">
+                                                <label for="sml_atm_vtb_ck_on">
+                                                    <i class="ICB" title="Ngân hàng Công Thương Việt Nam"></i>
+                                                    <input type="radio" value="ICB" runat="server" name="bankcode" />
+
+                                                </label>
+                                            </li>
+
+                                            <li class="bank-online-methods ">
+                                                <label for="sml_atm_exb_ck_on">
+                                                    <i class="EXB" title="Ngân hàng Xuất Nhập Khẩu"></i>
+                                                    <input type="radio" value="EXB" runat="server" name="bankcode" />
+
+                                                </label>
+                                            </li>
+
+                                            <li class="bank-online-methods ">
+                                                <label for="sml_atm_acb_ck_on">
+                                                    <i class="ACB" title="Ngân hàng Á Châu"></i>
+                                                    <input type="radio" value="ACB" runat="server" name="bankcode" />
+
+                                                </label>
+                                            </li>
+
+                                            <li class="bank-online-methods ">
+                                                <label for="sml_atm_hdb_ck_on">
+                                                    <i class="HDB" title="Ngân hàng Phát triển Nhà TPHCM"></i>
+                                                    <input type="radio" value="HDB" runat="server" name="bankcode" />
+
+                                                </label>
+                                            </li>
+
+                                            <li class="bank-online-methods ">
+                                                <label for="sml_atm_msb_ck_on">
+                                                    <i class="MSB" title="Ngân hàng Hàng Hải"></i>
+                                                    <input type="radio" value="MSB" runat="server" name="bankcode" />
+
+                                                </label>
+                                            </li>
+
+                                            <li class="bank-online-methods ">
+                                                <label for="sml_atm_nvb_ck_on">
+                                                    <i class="NVB" title="Ngân hàng Nam Việt"></i>
+                                                    <input type="radio" value="NVB" runat="server" name="bankcode" />
+
+                                                </label>
+                                            </li>
+
+                                            <li class="bank-online-methods ">
+                                                <label for="sml_atm_vab_ck_on">
+                                                    <i class="VAB" title="Ngân hàng Việt Á"></i>
+                                                    <input type="radio" value="VAB" runat="server" name="bankcode" />
+
+                                                </label>
+                                            </li>
+
+                                            <li class="bank-online-methods ">
+                                                <label for="sml_atm_vpb_ck_on">
+                                                    <i class="VPB" title="Ngân Hàng Việt Nam Thịnh Vượng"></i>
+                                                    <input type="radio" value="VPB" runat="server" name="bankcode" />
+
+                                                </label>
+                                            </li>
+
+                                            <li class="bank-online-methods ">
+                                                <label for="sml_atm_scb_ck_on">
+                                                    <i class="SCB" title="Ngân hàng Sài Gòn Thương tín"></i>
+                                                    <input type="radio" value="SCB" runat="server" name="bankcode" />
+
+                                                </label>
+                                            </li>
+
+                                            <li class="bank-online-methods ">
+                                                <label for="ojb_ck_on">
+                                                    <i class="OJB" title="Ngân hàng Đại Dương"></i>
+                                                    <input type="radio" value="OJB" runat="server" name="bankcode" />
+
+                                                </label>
+                                            </li>
+
+                                            <li class="bank-online-methods ">
+                                                <label for="bnt_atm_pgb_ck_on">
+                                                    <i class="PGB" title="Ngân hàng Xăng dầu Petrolimex"></i>
+                                                    <input type="radio" value="PGB" runat="server" name="bankcode" />
+
+                                                </label>
+                                            </li>
+
+                                            <li class="bank-online-methods ">
+                                                <label for="bnt_atm_gpb_ck_on">
+                                                    <i class="GPB" title="Ngân hàng TMCP Dầu khí Toàn Cầu"></i>
+                                                    <input type="radio" value="GPB" runat="server" name="bankcode" />
+
+                                                </label>
+                                            </li>
+
+                                            <li class="bank-online-methods ">
+                                                <label for="bnt_atm_agb_ck_on">
+                                                    <i class="AGB" title="Ngân hàng Nông nghiệp &amp; Phát triển nông thôn"></i>
+                                                    <input type="radio" value="AGB" runat="server" name="bankcode" />
+
+                                                </label>
+                                            </li>
+
+                                            <li class="bank-online-methods ">
+                                                <label for="bnt_atm_sgb_ck_on">
+                                                    <i class="SGB" title="Ngân hàng Sài Gòn Công Thương"></i>
+                                                    <input type="radio" value="SGB" runat="server" name="bankcode" />
+
+                                                </label>
+                                            </li>
+
+                                            <li class="bank-online-methods ">
+                                                <label for="bnt_atm_nab_ck_on">
+                                                    <i class="NAB" title="Ngân hàng Nam Á"></i>
+                                                    <input type="radio" value="NAB" runat="server" name="bankcode" />
+
+                                                </label>
+                                            </li>
+
+                                            <li class="bank-online-methods ">
+                                                <label for="sml_atm_bab_ck_on">
+                                                    <i class="BAB" title="Ngân hàng Bắc Á"></i>
+                                                    <input type="radio" value="BAB" runat="server" name="bankcode" />
+
+                                                </label>
+                                            </li>
+
+                                        </ul>
+
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                        @if (Model.IsCancel != 2)
+                        {
+                            <button type="submit" class="btn btn-sm btn-success float-right"> Cập nhật</button>
+                        }
+                        else
+                        {
+                            <button type="button" class="btn btn-sm btn-success float-right disabled"> Cập nhật</button>
+                        }
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- /row -->
+        <!-- /container -->
+
+        <div class="order-summary clearfix">
+            <div class="section-title">
+                <h3 class="title text-cam">Thông Tin Đơn Hàng</h3>
+            </div>
+
+            <div class="card ">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6 class="bg-cam font-weight-bold text-center border-bottom py-2 text-white">Cấu hình</h6>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-title text-dark pt-1"><h5 class="font-weight-bold text-info text-center">@ViewBag.leaseItem.Name</h5></div>
+                                <div class="card-title text-dark pt-1"><h6 class="font-weight-bold text-info text-center">@ViewBag.leaseItem.Description</h6></div>
+                                <div style="height:430px;" class="p-3">
+                                    @Html.Raw(ViewBag.leaseItem.Content)
+                                </div>
+                            </div>
+                        </div>
+                        <input type="hidden" value="asdasda" name="sumOrder" />
+                        @{
+                                var sum = ((int)@ViewBag.leaseItem.Price * (int)Model.RentalPeriod) + (int)ViewBag.sumTotalSoftware;
+                                var sum1 = ((int)@ViewBag.leaseItem.Price * (int)Model.RentalPeriod) + (int)ViewBag.sumTotalSoftware + Model.Deposits;
+                        }
+                        <p class="p-3">Ngày thuê: <span class="font-weight-bold text-success">@Model.RentalPeriod </span> X <span class="font-weight-bold text-success"> @ViewBag.leaseItem.Price.ToString("N0") VND</span> /Ngày</p>
+                        <span class="text-danger">Chúng tôi sẽ hoàn tiền cọc sau khi bạn trả máy.</span>
+                        <br />
+                        <input type="hidden" name="sum" value="@sum" />
+                        <h5 class="pl-2"> Tổng thanh toán: <span class="text-cam font-weight-bold">@sum.ToString("N0") VND</span> </h5>
+                        <div>
+                            @if (Model.Deposits != 0)
+                            {
+                                <h5 class="pl-2"> Tiền cọc: <span class="text-cam font-weight-bold">@Model.Deposits.ToString("N0") VND</span> </h5>
+                                <h5 class="pl-2"> Phải thanh toán: <span class="text-cam font-weight-bold">@sum1.ToString("N0") VND</span> </h5>
+                            }
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="bg-cam font-weight-bold text-center border-bottom py-2 text-white">Phần mềm</h6>
+                        <div class="card p-3">
+                            @foreach (var item in ViewBag.listSoftwareItem)
+                            {
+                                <span class=" text-info"> @item.Name x</span> <span class=" text-danger"> @item.Price.ToString("N0") VND</span>
+                                <br />
+                            }
+                            <div>
+                                <p class="p-3">Tổng @ViewBag.sumTotalSoftware.ToString("N0") VND</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .shopping-cart-table > tbody > tr > .thumb > img {
+        width: 60px;
+    }
+
+    .section-title {
+        position: relative;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        border-bottom: 1px solid #DADADA;
+    }
+
+        .section-title .title {
+            display: inline-block;
+            text-transform: uppercase;
+        }
+
+        .section-title:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -1.5px;
+            height: 3px;
+            width: 60px;
+            background-color: #F8694A;
+        }
+</style>
+<script>
+    $('input[name="option_payment"]').off('click').on('click', function (e) {
+        if ($(this).val() == 'NL') {
+            $('#nganluongContent').show();
+            $('#nganhangcontent').hide();
+        }
+        else if ($(this).val() == 'ATM_ONLINE') {
+            $('#nganluongContent').hide();
+            $('#nganhangcontent').show();
+        }
+        else {
+            $('#nganluongContent').hide();
+            $('#nganhangcontent').hide();
+        }
+    });
+
+</script>
+<style type="text/css">
+    li {
+        list-style: none;
+    }
+
+    h4 {
+        font-size: 1.1em;
+    }
+
+    h5, h6 {
+        font-size: 1em;
+    }
+
+    /* this rule styles <h1> and <h2> tags that are the
+    first child of the left and right table columns */
+    .rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2 {
+        margin-top: 0px;
+    }
+
+
+
+    ul.bankList {
+        clear: both;
+        height: 202px;
+        width: 636px;
+    }
+
+        ul.bankList li {
+            list-style-position: outside;
+            list-style-type: none;
+            cursor: pointer;
+            float: left;
+            margin-right: 0;
+            padding: 5px 2px;
+            text-align: center;
+            width: 90px;
+        }
+
+
+
+    .list-content li .boxContent {
+        display: none;
+        width: 636px;
+        border: 1px solid #cccccc;
+        padding: 10px;
+    }
+
+    .list-content li.active .boxContent {
+        display: block;
+    }
+
+    .list-content li .boxContent ul {
+        height: 280px;
+    }
+
+    i.VISA, i.MASTE, i.AMREX, i.JCB, i.VCB, i.TCB, i.MB, i.VIB, i.ICB, i.EXB, i.ACB, i.HDB, i.MSB, i.NVB, i.DAB, i.SHB, i.OJB, i.SEA, i.TPB, i.PGB, i.BIDV, i.AGB, i.SCB, i.VPB, i.VAB, i.GPB, i.SGB, i.NAB, i.BAB {
+        width: 80px;
+        height: 30px;
+        display: block;
+        background: url(https://www.nganluong.vn/webskins/skins/nganluong/checkout/version3/images/bank_logo.png) no-repeat;
+    }
+
+    i.MASTE {
+        background-position: 0px -31px
+    }
+
+    i.AMREX {
+        background-position: 0px -62px
+    }
+
+    i.JCB {
+        background-position: 0px -93px;
+    }
+
+    i.VCB {
+        background-position: 0px -124px;
+    }
+
+    i.TCB {
+        background-position: 0px -155px;
+    }
+
+    i.MB {
+        background-position: 0px -186px;
+    }
+
+    i.VIB {
+        background-position: 0px -217px;
+    }
+
+    i.ICB {
+        background-position: 0px -248px;
+    }
+
+    i.EXB {
+        background-position: 0px -279px;
+    }
+
+    i.ACB {
+        background-position: 0px -310px;
+    }
+
+    i.HDB {
+        background-position: 0px -341px;
+    }
+
+    i.MSB {
+        background-position: 0px -372px;
+    }
+
+    i.NVB {
+        background-position: 0px -403px;
+    }
+
+    i.DAB {
+        background-position: 0px -434px;
+    }
+
+    i.SHB {
+        background-position: 0px -465px;
+    }
+
+    i.OJB {
+        background-position: 0px -496px;
+    }
+
+    i.SEA {
+        background-position: 0px -527px;
+    }
+
+    i.TPB {
+        background-position: 0px -558px;
+    }
+
+    i.PGB {
+        background-position: 0px -589px;
+    }
+
+    i.BIDV {
+        background-position: 0px -620px;
+    }
+
+    i.AGB {
+        background-position: 0px -651px;
+    }
+
+    i.SCB {
+        background-position: 0px -682px;
+    }
+
+    i.VPB {
+        background-position: 0px -713px;
+    }
+
+    i.VAB {
+        background-position: 0px -744px;
+    }
+
+    i.GPB {
+        background-position: 0px -775px;
+    }
+
+    i.SGB {
+        background-position: 0px -806px;
+    }
+
+    i.NAB {
+        background-position: 0px -837px;
+    }
+
+    i.BAB {
+        background-position: 0px -868px;
+    }
+
+    ul.cardList li {
+        cursor: pointer;
+        float: left;
+        margin-right: 0;
+        padding: 5px 4px;
+        text-align: center;
+        width: 90px;
+    }
+</style>

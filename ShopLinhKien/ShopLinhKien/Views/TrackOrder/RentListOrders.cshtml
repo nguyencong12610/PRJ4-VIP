@@ -1,0 +1,48 @@
+﻿@model IEnumerable<ShopLinhKien.Models.LeaseOrder>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Tên khách hàng</th>
+            <th scope="col">Số ngày thuê</th>
+            <th scope="col">Hình thức thanh toán</th>
+            <th scope="col">Trạng thái</th>
+            <th scope="col">Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+        <spam class="text-danger"> @ViewBag.statusCart</spam>
+        <!-- Product Row -->
+
+        @{ float sum = 0;
+        }
+        @foreach (var item in Model)
+        {
+
+            <tr>
+               
+                <td class="pro-thumbnail">
+                    <span class="font-weight-bold">@item.Name</span>
+                </td>
+                <td class="pro-title"><a href="#">@item.RentalPeriod</a></td>
+                <td class="pro-price">
+                    <span>@item.PaymentMethod </span>
+                </td>
+                <td class="pro-quantity">
+                    @if (item.StatusPayment == 0)
+                    {
+                        <span class="text-danger">Chưa thanh toán, vui lòng thanh toán lại</span>
+                    }
+                    else if (item.StatusPayment == 1)
+                    {
+                        <span class="text-success">Đã thanh toán</span>
+                    }
+                    else if (item.StatusPayment == 2)
+                    {
+                        <span class="text-warning">Thanh toán tại quầy</span>
+                    }
+                </td>
+                <td class="pro-subtotal"> <a href="~/TrackOrder/RentdetailOrder/@item.ID">Xem chi tiết</a></td>
+            </tr>
+        }
+    </tbody>
+    </table>

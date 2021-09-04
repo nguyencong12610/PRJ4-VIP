@@ -1,0 +1,29 @@
+﻿@model IEnumerable<ShopLinhKien.Models.Mcategory>
+
+@{
+    ViewBag.Title = "Trang Chu";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+@Html.Action("Mainmenu", "module")
+
+<!-- list category & sliser-->
+<section class="container-fluid">
+    <div>
+        <div class="container pt-3">
+            <div class="row">
+                <!-- listcategory-->
+                <div class="col-md-4 w-100">
+                    @Html.Action("Listcategory", "module")
+                </div>
+                <div class="col-md-8">
+                    @Html.Action("slider", "module")
+                </div>
+            </div>
+        </div>
+    </div>
+    @Html.Partial("~/Views/Module/_ServiceCustomer.cshtml")
+</section>
+@Html.Action("_lease_category", "Sanpham")
+
+
+<div id="fb-root"></div>

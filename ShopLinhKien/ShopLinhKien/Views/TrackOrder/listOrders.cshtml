@@ -1,0 +1,48 @@
+﻿@model IEnumerable<ShopLinhKien.Models.Morder>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Tên khách hàng</th>
+            <th scope="col">Ngày đặt hàng</th>
+            <th scope="col">Hình thức thanh toán</th>
+            <th scope="col">Trạng thái</th>
+            <th scope="col">Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+        <spam class="text-danger"> @ViewBag.statusCart</spam>
+        <!-- Product Row -->
+
+        @{ float sum = 0;
+        }
+        @foreach (var item in Model)
+        {
+
+            <tr>
+               
+                <td class="pro-thumbnail">
+                    <span class="font-weight-bold">@item.deliveryname</span>
+                </td>
+                <td class="pro-title"><a href="#">@item.created_ate.ToString("dd/MM/yyyy")</a></td>
+                <td class="pro-price">
+                    <span>@item.deliveryPaymentMethod </span>
+                </td>
+                <td class="pro-quantity">
+                    @if (item.status == 2)
+                    {
+                        <span class="text-danger">Chờ xác nhận</span>
+                    }
+                    else if (item.status == 1)
+                    {
+                        <span class="text-danger">Đã xác nhận</span>
+                    }
+                    else if (item.status == 3)
+                    {
+                        <span class="text-danger">Đã hủy</span>
+                    }
+                </td>
+                <td class="pro-subtotal"> <a href="~/TrackOrder/detailOrder/@item.ID">Xem chi tiết</a></td>
+            </tr>
+        }
+    </tbody>
+    </table>

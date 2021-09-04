@@ -1,0 +1,462 @@
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\ShopLinhKien.dll.config
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\ShopLinhKien.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\ShopLinhKien.pdb
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\csc.exe
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\csc.exe.config
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\csc.rsp
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\csi.exe
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\csi.exe.config
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\csi.rsp
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.AppContext.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.Console.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.IO.Compression.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.IO.Pipes.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.Security.Claims.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.ValueTuple.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.Xml.XPath.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\vbc.exe
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\vbc.exe.config
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\vbc.rsp
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\VBCSCompiler.exe
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\EntityFramework.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\EntityFramework.SqlServer.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\PagedList.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\PagedList.Mvc.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\System.Web.Helpers.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\System.Web.Mvc.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\System.Web.Razor.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\System.Web.Webpages.Deployment.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\System.Web.Webpages.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\System.Web.Webpages.Razor.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\EntityFramework.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\EntityFramework.SqlServer.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\PagedList.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\PagedList.Mvc.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\System.Web.Razor.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\System.Web.Webpages.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\System.Web.Webpages.Deployment.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\System.Web.Webpages.Razor.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\System.Web.Helpers.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\System.Web.Mvc.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\obj\Debug\ShopLinhKien.csprojAssemblyReference.cache
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\obj\Debug\ShopLinhKien.csproj.CoreCompileInputs.cache
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\obj\Debug\ShopLinhKien.csproj.CopyComplete
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\obj\Debug\ShopLinhKien.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKienMayTinh\ShopCayCanh\ShopLinhKien\obj\Debug\ShopLinhKien.pdb
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\ShopLinhKien.dll.config
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\ShopLinhKien.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\ShopLinhKien.pdb
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\csc.exe
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\csc.exe.config
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\csc.rsp
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\csi.exe
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\csi.exe.config
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\csi.rsp
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.AppContext.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Console.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.IO.Compression.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.IO.Pipes.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Claims.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.ValueTuple.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Xml.XPath.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\vbc.exe
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\vbc.exe.config
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\vbc.rsp
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\VBCSCompiler.exe
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\EntityFramework.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\EntityFramework.SqlServer.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\PagedList.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\PagedList.Mvc.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\System.Web.Helpers.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\System.Web.Mvc.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\System.Web.Razor.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.Deployment.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.Razor.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\EntityFramework.xml
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\EntityFramework.SqlServer.xml
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\PagedList.xml
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\PagedList.Mvc.xml
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\System.Web.Razor.xml
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.xml
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.Deployment.xml
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.Razor.xml
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\System.Web.Helpers.xml
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\System.Web.Mvc.xml
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\obj\Debug\ShopLinhKien.csprojAssemblyReference.cache
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\obj\Debug\ShopLinhKien.csproj.CoreCompileInputs.cache
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\obj\Debug\ShopLinhKien.csproj.CopyComplete
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\obj\Debug\ShopLinhKien.dll
+C:\Users\hungdeptrai\Downloads\ShopLinhKien\ShopLinhKien\obj\Debug\ShopLinhKien.pdb
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\ShopLinhKien.dll.config
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\ShopLinhKien.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\ShopLinhKien.pdb
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\csc.exe
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\csc.exe.config
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\csc.rsp
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\csi.exe
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\csi.exe.config
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\csi.rsp
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.AppContext.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Console.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.IO.Compression.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.IO.Pipes.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Claims.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.ValueTuple.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Xml.XPath.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\vbc.exe
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\vbc.exe.config
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\vbc.rsp
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\VBCSCompiler.exe
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\EntityFramework.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\EntityFramework.SqlServer.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\PagedList.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\PagedList.Mvc.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Helpers.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Mvc.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Razor.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.Deployment.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.Razor.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\EntityFramework.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\EntityFramework.SqlServer.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\PagedList.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\PagedList.Mvc.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Razor.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.Deployment.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.Razor.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Helpers.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Mvc.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\obj\Debug\ShopLinhKien.csprojAssemblyReference.cache
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\obj\Debug\ShopLinhKien.csproj.CoreCompileInputs.cache
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\obj\Debug\ShopLinhKien.csproj.CopyComplete
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\obj\Debug\ShopLinhKien.dll
+C:\Users\hungdeptrai\Desktop\ShopLinhKien\ShopLinhKien\obj\Debug\ShopLinhKien.pdb
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\ShopLinhKien.dll.config
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\ShopLinhKien.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\ShopLinhKien.pdb
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\csc.exe
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\csc.exe.config
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\csc.rsp
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\csi.exe
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\csi.exe.config
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\csi.rsp
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.AppContext.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.Console.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.IO.Compression.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.IO.Pipes.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.Security.Claims.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.ValueTuple.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.Xml.XPath.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\vbc.exe
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\vbc.exe.config
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\vbc.rsp
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\VBCSCompiler.exe
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\EntityFramework.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\EntityFramework.SqlServer.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\PagedList.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\PagedList.Mvc.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\System.Web.Helpers.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\System.Web.Mvc.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\System.Web.Razor.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\System.Web.Webpages.Deployment.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\System.Web.Webpages.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\System.Web.Webpages.Razor.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\EntityFramework.xml
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\EntityFramework.SqlServer.xml
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\PagedList.xml
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\PagedList.Mvc.xml
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\System.Web.Razor.xml
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\System.Web.Webpages.xml
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\System.Web.Webpages.Deployment.xml
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\System.Web.Webpages.Razor.xml
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\System.Web.Helpers.xml
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\System.Web.Mvc.xml
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\obj\Debug\ShopLinhKien.csprojAssemblyReference.cache
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\obj\Debug\ShopLinhKien.csproj.CoreCompileInputs.cache
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\obj\Debug\ShopLinhKien.csproj.CopyComplete
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\obj\Debug\ShopLinhKien.dll
+C:\Users\hungdeptrai\Desktop\shopThueQuanAo\ShopLinhKien\obj\Debug\ShopLinhKien.pdb
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\ShopLinhKien.dll.config
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\ShopLinhKien.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\ShopLinhKien.pdb
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\csc.exe
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\csc.exe.config
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\csc.rsp
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\csi.exe
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\csi.exe.config
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\csi.rsp
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.Managed.Core.targets
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.AppContext.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Collections.Immutable.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Console.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.IO.Compression.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.IO.FileSystem.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.IO.Pipes.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Reflection.Metadata.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.AccessControl.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Claims.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Principal.Windows.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.ValueTuple.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Xml.XmlDocument.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Xml.XPath.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\vbc.exe
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\vbc.exe.config
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\vbc.rsp
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\VBCSCompiler.exe
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\roslyn\VBCSCompiler.exe.config
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\EntityFramework.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\EntityFramework.SqlServer.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\Microsoft.Web.Infrastructure.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\PagedList.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\PagedList.Mvc.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Helpers.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Mvc.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Razor.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.Deployment.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.Razor.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\EntityFramework.xml
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\EntityFramework.SqlServer.xml
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\PagedList.xml
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\PagedList.Mvc.xml
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Razor.xml
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.xml
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.Deployment.xml
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.Razor.xml
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Helpers.xml
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\System.Web.Mvc.xml
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\obj\Debug\ShopLinhKien.csprojAssemblyReference.cache
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\obj\Debug\ShopLinhKien.csproj.CoreCompileInputs.cache
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\obj\Debug\ShopLinhKien.csproj.CopyComplete
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\obj\Debug\ShopLinhKien.dll
+F:\DoAnDesktop\ShopLinhKien\ShopLinhKien\obj\Debug\ShopLinhKien.pdb
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\ShopLinhKien.dll.config
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\ShopLinhKien.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\ShopLinhKien.pdb
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\csc.exe
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\csc.exe.config
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\csc.rsp
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\csi.exe
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\csi.exe.config
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\csi.rsp
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.AppContext.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Collections.Immutable.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Console.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.IO.Compression.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.IO.FileSystem.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.IO.Pipes.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Reflection.Metadata.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.AccessControl.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Claims.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.ValueTuple.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Xml.XPath.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\vbc.exe
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\vbc.exe.config
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\vbc.rsp
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\VBCSCompiler.exe
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\roslyn\VBCSCompiler.exe.config
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\EntityFramework.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\EntityFramework.SqlServer.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\Microsoft.Web.Infrastructure.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\PagedList.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\PagedList.Mvc.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\System.Web.Helpers.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\System.Web.Mvc.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\System.Web.Razor.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.Deployment.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.Razor.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\EntityFramework.xml
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\EntityFramework.SqlServer.xml
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\PagedList.xml
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\PagedList.Mvc.xml
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\System.Web.Razor.xml
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.xml
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.Deployment.xml
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\System.Web.Webpages.Razor.xml
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\System.Web.Helpers.xml
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\System.Web.Mvc.xml
+F:\Project 4\ShopLinhKien\ShopLinhKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Project 4\ShopLinhKien\ShopLinhKien\obj\Debug\ShopLinhKien.csproj.CoreCompileInputs.cache
+F:\Project 4\ShopLinhKien\ShopLinhKien\obj\Debug\ShopLinhKien.csproj.CopyComplete
+F:\Project 4\ShopLinhKien\ShopLinhKien\obj\Debug\ShopLinhKien.dll
+F:\Project 4\ShopLinhKien\ShopLinhKien\obj\Debug\ShopLinhKien.pdb
+F:\Project 4\ShopLinhKien\ShopLinhKien\obj\Debug\ShopLinhKien.csprojAssemblyReference.cache

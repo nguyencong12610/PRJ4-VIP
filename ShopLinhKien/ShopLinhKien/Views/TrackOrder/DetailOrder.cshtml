@@ -1,0 +1,48 @@
+﻿@model ShopLinhKien.Models.Morder
+@{
+    ViewBag.Title = "Thông tin chi tiết đơn hàng";
+    Layout = "~/Views/Shared/_layoutSite.cshtml";
+}
+@Html.Action("Mainmenu", "module")
+<!-- order complete Page Start -->
+<section class="order-complete inner-page-sec-padding-bottom pt-3">
+    <div class="container bg-white">
+        <div class="row">
+            <div class="col-12">
+                <div class="order-complete-message text-center">
+                    <h4 class="font-weight-bold pt-3 text-center">@Model.deliveryname </h4> <h4>Thân mến</h4>
+                    <p>Thông tin chi tiết đơn hàng của bạn.</p>
+                </div>
+                <ul class="order-details-list">
+                    <li>Mã đơn hàng: <strong>@Model.ID</strong></li>
+                    <li>Tên khách hàng: <strong>@Model.deliveryname</strong></li>
+                    <li>Số thiện thoại: <strong>@Model.deliveryphone</strong></li>
+                    <li>Email: <strong>@Model.deliveryemail</strong></li>
+                    <li>địa chỉ nhận hàng: <strong>@Model.deliveryaddress</strong></li>
+                    <li>Ngày đặt hàng: <strong>@Model.created_ate</strong></li>
+                    <li>Phương thức thanh toán: <strong>Ship Code</strong></li>
+                    @if (Model.StatusPayment == 1)
+                    {
+                        <li>Trạng thái thanh toán: <strong>Đã thanh toán</strong></li>
+                    }
+                    else
+                    {
+                        <li>Trạng thái thanh toán: <strong>Chưa thanh toán vui lòng thanh toán lại.</strong></li>
+                    }
+                    <li>Phương thức thanh toán: <strong>@Model.deliveryPaymentMethod.</strong></li>
+                </ul>
+                <p class="font-weight-bold text-success">Thanh toán bằng tiền mặt khi giao hàng.</p>
+                <h3 class="order-table-title">Chi tiết đơn hàng</h3>
+                <div class="table-responsive">
+                    @Html.Action("productDetailCheckOut", "TrackOrder", new { orderId = Model.ID })
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<style>
+    li {
+        list-style: none;
+        padding: 10px;
+    }
+</style>

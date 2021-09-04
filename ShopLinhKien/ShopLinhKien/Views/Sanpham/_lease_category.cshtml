@@ -1,0 +1,15 @@
+﻿@model IEnumerable<ShopLinhKien.Models.leaseCategory>
+
+@foreach (var item in Model)
+{
+    <section class="container-fluid pt-3">
+        <div class="container ">
+            <div class="card bg-light">
+                <h3 class="card-header text-xanhduong bg-white text-center font-weight-bold">@item.Name</h3>
+                <div class="card-body">
+                    <div class="row">
+                        @Html.Action("_productsale", "Sanpham", new {catId = item.ID})
+                    </div>
+                </div>
+    </section>
+}
