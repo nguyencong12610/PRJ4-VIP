@@ -33,7 +33,7 @@ namespace ShopLinhKien.Areas.Admin.Controllers
             {
                 
                 var itemcatt = data["itempage"];
-                if (itemcatt==null) { Message.set_flash("Bạn chưa chọn Mà", "danger");
+                if (itemcatt==null) { Message.set_flash("Bạn chưa chọn mà", "danger");
                     return RedirectToAction("index");
                 }
                 var arrcat = itemcatt.Split(',');

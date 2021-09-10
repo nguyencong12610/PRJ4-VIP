@@ -265,7 +265,7 @@ namespace ShopLinhKien.Controllers
             string str_bankcode = Request["bankcode"];
 
 
-            if (LeaseOrders.status == 3)
+            if (LeaseOrders.status == 4)
             {
                 Message.set_flash("Không thể thêm ngày khi đơn hàng đã trả máy", "danger");
                 return Redirect("~/TrackOrder/RentdetailOrder/" + id);
@@ -275,7 +275,7 @@ namespace ShopLinhKien.Controllers
                 Message.set_flash("Không thể thêm ngày khi đơn hàng đã trả máy", "danger");
                 return Redirect("~/TrackOrder/RentdetailOrder/" + id);
             }
-            if (LeaseOrders.IsCancel == 1)
+            if (LeaseOrders.IsCancel == 2)
             {
                 Message.set_flash("Không thể thêm ngày khi đơn hàng đã hủy", "danger");
                 return Redirect("~/TrackOrder/RentdetailOrder/" + id);
@@ -331,7 +331,7 @@ namespace ShopLinhKien.Controllers
                 Message.set_flash("Không thể hủy đơn hàng khi đơn hàng đã được xác nhận", "danger");
                 return Redirect("~/TrackOrder/RentdetailOrder/" + id);
             }
-            if (LeaseOrders.status == 3)
+            if (LeaseOrders.status == 4)
             {
                 Message.set_flash("Không thể hủy đơn hàng khi đã trả máy", "danger");
                 return Redirect("~/TrackOrder/RentdetailOrder/" + id);
@@ -379,7 +379,7 @@ namespace ShopLinhKien.Controllers
             int leaseId = int.Parse(Session["LeaseId"].ToString());
             int LeaseOdersId = int.Parse(Session["LeaseOdersId"].ToString());
             int id = LeaseOdersId;
-            int NgayThue = int.Parse(Session["LeaseOdersId"].ToString());
+            int NgayThue = int.Parse(Session["NgayThue"].ToString());
             LeaseOrder LeaseOrders = db.LeaseOrders.Find(id);
             leaseItem leaseItem = db.leaseItems.Find(LeaseOrders.LeaseItemID);
             LeaseOrders.TotalPrice += leaseItem.Price * NgayThue;

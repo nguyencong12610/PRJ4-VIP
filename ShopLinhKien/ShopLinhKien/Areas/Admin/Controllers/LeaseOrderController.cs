@@ -173,12 +173,17 @@ namespace ShopLinhKien.Areas.Admin.Controllers
             if (LeaseOrders.ComfirmReturn == 1)
             {
                 Message.set_flash("Không thể thêm ngày khi đơn hàng đã trả máy", "danger");
-                return Redirect("~/TrackOrder/RentdetailOrder/" + id);
+                return Redirect("~/Admin/LeaseOrder/Detail/" + id);
             }
-            if (LeaseOrders.IsCancel == 1)
+            if (LeaseOrders.IsCancel == 2)
             {
                 Message.set_flash("Không thể thêm ngày khi đơn hàng đã hủy", "danger");
-                return Redirect("~/TrackOrder/RentdetailOrder/" + id);
+                return Redirect("~/Admin/LeaseOrder/Detail/" + id);
+            }
+            if (LeaseOrders.status == 4)
+            {
+                Message.set_flash("Không thể thêm ngày khi đơn hàng đã trả máy", "danger");
+                return Redirect("~/Admin/LeaseOrder/Detail/" + id);
             }
             db.Entry(LeaseOrders).State = EntityState.Modified;
             db.SaveChanges();
